@@ -1,4 +1,4 @@
-### Cloud computing final project - Auto-check 無人商店
+# Cloud computing final project - Auto-check 無人商店
 
 * Goal
   * for 顧客：減去等候結帳的時間、提升購物體驗、個人化推薦
@@ -17,20 +17,20 @@
       *   會員資料管理
       *   E-mail自動通知廠商補貨
       *   購物流程全自動化、店裡面不用雇店員
+
+*  AWS
+   *  API Gateway
+   *  S3
+   *  Dynamodb
+   *  SNS
+   *  Lambda
+   *  Rekognition
+   *  AWS IoT core  
+   *  AWS Personalize
  
-  *  AWS
-      *  API Gateway
-      *  S3
-      *  Dynamodb
-      *  SNS
-      *  Lambda
-      *  Rekognition
-      *  AWS IoT core  
-      *  AWS Personalize
- 
-   *  Raspberry Pi
-       *   Camera (picamera)
-       *   Button (GPIOZero)
-       *   Scale (HX711)
-       *   LED    
+*  Raspberry Pi
+    *   Camera (picamera)
+    *   Button (GPIOZero)
+    *   Scale (HX711)
+    *   LED    
 
