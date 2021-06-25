@@ -11,5 +11,4 @@
     * step5: execute lambda function to upload resize images  
 * HW4: IoT, Machine Learning
   *  Implement an end-to-end cloud application which can take a picture and then use AWS service to detect whether there are any faces in the picture or not. If any face is detected, turn on the light on the raspberry pi. If not, turn off the light on the raspberry pi.
-*  Final Project: Auto-check
-  *  A cloud cashier-free convenience store system
+*  Final Project: Auto-check - A cloud cashier-free convenience store system
