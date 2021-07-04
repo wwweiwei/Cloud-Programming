@@ -1,0 +1,20 @@
+# lab1-1: All Data in C0A9F0
+aws dynamodb query \
+--table-name WeatherData \
+--key-condition-expression "StationId=:id" \
+--expression-attribute-values '{":id":{"S":"C0A9F0"}}'
+
+# lab1-2: All Temperature in C0A9E0 after time (ObsTime) 16 (Contain 16)
+aws dynamodb query \
+--table-name WeatherData \
+--projection-expression "Temperature" \
+--key-condition-expression "StationId=:id and ObsTime>=:obs" \
+--expression-attribute-values '{":id":{"S":"C0A9E0"}, ":obs":{"N":"16"}}'
+
+# lab1-3: All RH at time (ObsTime) 13
+aws dynamodb scan \
+--table-name WeatherData \
+--filter-expression "ObsTime = :obs" \
+--projection-expression "#RH" \
+--expression-attribute-names '{"#RH":"RH"}' \
+--expression-attribute-values '{":obs":{"N":"13"}}'
