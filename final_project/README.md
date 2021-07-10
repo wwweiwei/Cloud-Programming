@@ -1,4 +1,4 @@
-# Cloud computing final project - Auto-check 無人商店
+# Cloud programming final project - Auto-check 無人商店
 
 * Goal
   * for 顧客：減去等候結帳的時間、提升購物體驗、個人化推薦
