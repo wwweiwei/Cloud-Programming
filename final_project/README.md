@@ -34,3 +34,6 @@
     *   Scale (HX711)
     *   LED    
 
+*   Demo
+    *   Hackathon demo clip: https://drive.google.com/file/d/1BbfkxosdSfIa3lUU1aiwDf1PdW9-L-iA/view?usp=sharing
+    *   Final project demo clip: https://drive.google.com/file/d/1fMdMmJ3HXaIpqNtrQcx06_0dpNIQIhWC/view?usp=sharing
